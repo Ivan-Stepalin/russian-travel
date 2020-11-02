@@ -1,0 +1,30 @@
+.cover__image {
+    background-image: url(../../../images/cover-trains.jpg);
+    height: calc(100vw * 0.625);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cover__image:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    opacity: .3;    
+}
+
+.cover__image:hover:before {
+    opacity: .8;
+}
+
+.cover__image:hover {
+    cursor: pointer;
+}
