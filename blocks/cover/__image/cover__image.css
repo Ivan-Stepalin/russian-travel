@@ -28,3 +28,9 @@
 .cover__image:hover {
     cursor: pointer;
 }
+
+@media screen and (min-width: 1280px) {
+    .cover__image {
+        height: 740px;
+    }   
+}
