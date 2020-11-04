@@ -1,17 +1,17 @@
-.place__website_url {
+.place__url {
     margin: 12px 0 0;
     padding: 0;
     font-family: 'Inter';
-    font-size: 12px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0.2em;
+    line-height: 22px;
     text-align: left;
     color: #fff;
 }
 
-.place__website_url:hover {
+.place__url:hover {
     cursor: pointer;
     opacity: .8;
 }
+

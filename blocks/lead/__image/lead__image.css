@@ -10,3 +10,9 @@
         margin: 0px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .lead__image {
+        margin: 0px;
+    }
+}

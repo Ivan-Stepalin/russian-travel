@@ -12,7 +12,6 @@
 }
 
 .header__lang-link:nth-child(1) {
-    text-decoration-line: underline;
     margin-right: 18px;
 }
 
